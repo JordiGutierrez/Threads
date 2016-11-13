@@ -17,6 +17,8 @@ namespace ConsoleApplication3
 
             WriteLine("Synchronous version");
             DisplayPrimeCounts();
+
+            WriteLine("Done");
         }
 
         static int GetPrimesCount(int start, int count)
